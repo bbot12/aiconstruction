@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AI-Powered Construction Services - BuildTech AI</title>
+    <style>
+        .service-section {
+            margin-bottom: 80px;
+        }
+        .service-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 50px;
+        }
+        .service-intro p {
+            font-size: 1.2em;
+            color: var(--gray);
+        }
+        .service-item {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+        .service-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .service-content {
+            padding: 30px;
+        }
+        .service-content h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        .service-content p {
+            margin-bottom: 20px;
+            color: var(--gray);
+        }
+        .service-content ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .service-content ul li {
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .service-content ul li:before {
+            content: "✓";
+            color: var(--accent-color);
+            position: absolute;
+            left: 0;
+        }
+        .cta-section {
+            background: var(--gradient);
+            padding: 80px 0;
+            color: var(--white);
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .cta-content h2 {
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+        .cta-content p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        @media (max-width: 768px) {
+            .service-section {
+                margin-bottom: 40px;
+            }
+            .service-item img {
+                height: 200px;
+            }
+            .service-content {
+                padding: 20px;
+            }
+            .cta-section {
+                padding: 60px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="BuildTech AI Logo">
+                <span class="company-name">BuildTech AI</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>AI-Powered Construction Services</h1>
+                <p>Revolutionizing the construction industry with cutting-edge artificial intelligence solutions. Experience the future of construction with BuildTech AI.</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="white filled">Get Started</a>
+                    <a href="#ai-planning" class="white outlined">Explore Services</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="service-intro">
+                    <h2>Our Comprehensive Services</h2>
+                    <p>At BuildTech AI, we combine traditional construction expertise with cutting-edge artificial intelligence to deliver superior results. Our innovative approach ensures precision, efficiency, and quality in every project.</p>
+                </div>
+
+                <div class="service-section" id="ai-planning">
+                    <h2>AI-Powered Planning & Design</h2>
+                    <div class="service-grid">
+                        <div class="service-item">
+                            <img src="images/ai-design.jpg" alt="AI Design Process">
+                            <div class="service-content">
+                                <h3>Intelligent Design Optimization</h3>
+                                <p>Our AI algorithms analyze thousands of design possibilities to create optimal solutions that maximize efficiency and sustainability.</p>
+                                <ul>
+                                    <li>3D Modeling & Visualization</li>
+                                    <li>Cost Optimization</li>
+                                    <li>Energy Efficiency Analysis</li>
+                                    <li>Material Selection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/project-planning.jpg" alt="Project Planning">
+                            <div class="service-content">
+                                <h3>Smart Project Management</h3>
+                                <p>Advanced project management powered by machine learning algorithms that ensure optimal resource allocation and risk mitigation.</p>
+                                <ul>
+                                    <li>Resource Allocation</li>
+                                    <li>Timeline Optimization</li>
+                                    <li>Risk Assessment</li>
+                                    <li>Budget Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-section" id="construction">
+                    <h2>Construction Services</h2>
+                    <div class="service-grid">
+                        <div class="service-item">
+                            <img src="images/residential-ai.jpg" alt="Residential Construction">
+                            <div class="service-content">
+                                <h3>Residential Construction</h3>
+                                <p>Smart homes and modern living spaces built with precision and innovation.</p>
+                                <ul>
+                                    <li>Custom Home Building</li>
+                                    <li>Smart Home Integration</li>
+                                    <li>Energy-Efficient Design</li>
+                                    <li>Quality Assurance</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/commercial-ai.jpg" alt="Commercial Construction">
+                            <div class="service-content">
+                                <h3>Commercial Projects</h3>
+                                <p>Innovative commercial spaces optimized for efficiency and success.</p>
+                                <ul>
+                                    <li>Office Buildings</li>
+                                    <li>Retail Spaces</li>
+                                    <li>Industrial Facilities</li>
+                                    <li>Smart Building Systems</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/renovation-ai.jpg" alt="Smart Renovations">
+                            <div class="service-content">
+                                <h3>Smart Renovations</h3>
+                                <p>Modernize existing structures with AI-driven solutions for optimal performance.</p>
+                                <ul>
+                                    <li>Space Optimization</li>
+                                    <li>Energy Updates</li>
+                                    <li>Smart Technology Integration</li>
+                                    <li>Structural Improvements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-section" id="monitoring">
+                    <h2>AI Monitoring & Quality Control</h2>
+                    <div class="service-grid">
+                        <div class="service-item">
+                            <img src="images/monitoring-system.jpg" alt="AI Monitoring">
+                            <div class="service-content">
+                                <h3>Real-time Project Monitoring</h3>
+                                <p>24/7 automated monitoring and analysis for optimal project performance.</p>
+                                <ul>
+                                    <li>Progress Tracking</li>
+                                    <li>Safety Compliance</li>
+                                    <li>Quality Verification</li>
+                                    <li>Issue Detection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <img src="images/quality-control.jpg" alt="Quality Control">
+                            <div class="service-content">
+                                <h3>Advanced Quality Assurance</h3>
+                                <p>AI-powered quality control systems ensuring excellence in every detail.</p>
+                                <ul>
+                                    <li>Material Inspection</li>
+                                    <li>Work Quality Analysis</li>
+                                    <li>Compliance Checking</li>
+                                    <li>Documentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Construction Project?</h2>
+                    <p>Contact us to discuss how our AI-powered solutions can revolutionize your next project.</p>
+                    <a href="contact.html" class="cta-button">Request Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@buildtechai.com</p>
+                    <p>Address: 123 Innovation Drive<br>Tech City, TC 12345</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#ai-planning">AI Project Planning</a></li>
+                        <li><a href="#monitoring">Real-time Monitoring</a></li>
+                        <li><a href="#construction">Construction Services</a></li>
+                        <li><a href="#consulting">Construction Consulting</a></li>
+                    </ul>
+                </div>
+<!--                <div class="footer-section">-->
+<!--                    <h4>Connect With Us</h4>-->
+<!--                    <div class="social-links">-->
+<!--                        <a href="#" aria-label="Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>-->
+<!--                        <a href="#" aria-label="Twitter"><img src="images/twitter-icon.png" alt="Twitter"></a>-->
+<!--                        <a href="#" aria-label="LinkedIn"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>-->
+<!--                        <a href="#" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BuildTech AI Construction Company. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a> |
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
