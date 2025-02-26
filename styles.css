@@ -39,6 +39,8 @@ body {
 /* Header and Navigation */
 header {
     background: var(--white);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: fixed;
     width: 100%;
